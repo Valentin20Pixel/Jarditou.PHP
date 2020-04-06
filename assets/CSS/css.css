@@ -1,0 +1,177 @@
+button {
+    text-align: center;
+}
+
+td,
+th,
+tr {
+    border: black 2px solid;
+    font-weight: 400;
+    font-family: 'Nosifer', cursive;
+    font-family: 'Rock Salt', cursive;
+    font-family: 'Merriweather', serif;
+    color: rgba(255, 255, 255, 0.876);
+}
+
+#suppr {
+    display: inline-block;
+    left: 182px;
+    bottom: 38px;
+}
+
+#prophoto {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    border: solid 1px #6c757d;
+    border-radius: 6px;
+    box-shadow: #6c757d 3px 3px;
+}
+
+#photodetail {
+    max-height: 250px;
+    max-width: 200px;
+}
+
+#prevu {
+    max-height: 600px;
+    max-width: 600px;
+}
+
+.IMGT {
+    max-height: 250px;
+    max-width: 200px;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("../img/grid.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg_container {
+    background-color: rgba(0, 0, 0, 0.383);
+}
+
+p,
+h1,
+h3 {
+    font-weight: 400;
+    font-family: 'Nosifer', cursive;
+    font-family: 'Rock Salt', cursive;
+    font-family: 'Merriweather', serif;
+    color: rgba(255, 255, 255, 0.876);
+}
+
+form {
+    color: rgba(255, 255, 255, 0.876);
+}
+
+.success {
+    background-color: rgba(24, 182, 24, 0.383);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul.gallery {
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.zoom {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+}
+
+.zoom:hover,
+.zoom:active,
+.zoom:focus {
+    -ms-transform: scale(2.5);
+    -moz-transform: scale(2.5);
+    -webkit-transform: scale(2.5);
+    -o-transform: scale(2.5);
+    transform: scale(2.5);
+    position: relative;
+    z-index: 100;
+    margin-left: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    ul.gallery {
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+}
+
+.LoGo {
+    border: solid rgba(128, 128, 128, 0.664) 6px;
+    border-radius: 50px;
+    max-width: 95%;
+}
+
+.insta {
+    position: relative;
+    bottom: 80px;
+    max-width: 30px;
+    opacity: 0.7;
+}
+
+.you {
+    position: relative;
+    bottom: 45px;
+    max-width: 30px;
+    opacity: 0.7;
+}
+
+.twit {
+    position: relative;
+    bottom: 80px;
+    max-width: 30px;
+    opacity: 0.7;
+}
+
+.pinte {
+    position: relative;
+    bottom: 50px;
+    max-width: 30px;
+    opacity: 0.7;
+}
+
+.face {
+    position: relative;
+    bottom: 80px;
+    max-width: 30px;
+    opacity: 0.7;
+}
+
+.insta:hover {
+    opacity: 1;
+}
+
+.twit:hover {
+    opacity: 1;
+}
+
+.you:hover {
+    opacity: 1;
+}
+
+.pinte:hover {
+    opacity: 1;
+}
+
+.face:hover {
+    opacity: 1;
+}
